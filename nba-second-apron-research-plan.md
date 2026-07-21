@@ -57,6 +57,23 @@ Crossing B × C gives **surplus value** (production tier minus pay tier) — the
 - Extension share: % of big contracts signed as extensions vs. free agency (extensions have been displacing FA — quantify).
 - All-NBA player movement rate per season (are more/fewer stars changing teams?).
 
+### ✅ Workstream 3 — DATA + FIRST FINDINGS (2026-07-21)
+Source: B-Ref transaction logs (`data/transactions.csv`, 20,604 parsed transactions). Metric files:
+`trade_metrics_by_{season,era}.csv`, `fa_metrics_by_{season,era}.csv`, `fa_signing_timeline.csv`.
+Builders: `scrape/parse_transactions.py`, `build_trade_metrics.py`, `build_fa_metrics.py`.
+
+**Trades (per-year averages by era — 2005 / 2011 / 2017 / apron CBA):**
+- Total trades: 46 → 51 → 55 → **59** — trading is *up*, not frozen, at league level.
+- Multi-team (3+) trades: 2.8 → 5.3 → 6.7 → **9.3** — the apron-era workaround for the aggregation ban (route salary through a third team).
+- Deadline-week trades: 9 → 10.5 → 16 → **22** — busiest deadlines ever under the apron.
+- Salary-aggregation share: steady ~42-49% league-wide (apron bans it only for 2nd-apron teams → next step: isolate those teams).
+
+**Free agency:**
+- Signing timing compressed hard: median signing day for big (≥15%-of-cap) contracts fell ~27 days after open (2005 CBA) → **~7 days** (apron). The July 1-2 frenzy is real.
+- Star (All-Star-level, impact_tier≥4) movement rate: 12% → 17% → **25%** (2017 empowerment peak) → **14%** (apron). Fewer stars change teams now.
+- Caveat: 2011-12 (lockout) and 2020-21 (COVID) excluded from FA timeline — FA opened in Dec/Nov, not July.
+- Still TODO: extension-vs-FA share (needs extension flag from B-Ref contract pages).
+
 ## 4. Queued workstreams
 
 **W2 — Compensation shifts:** star share of team payroll over time; middle-class squeeze (count and $ share of 5-15%-of-cap contracts); supermax uptake and outcomes; "should stars take less" reframed as: what discount, if any, changes a team's apron position and title odds.
