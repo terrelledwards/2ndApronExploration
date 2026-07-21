@@ -94,7 +94,10 @@ Crossing B × C gives **surplus value** (production tier minus pay tier) — the
 - `data/salary_cap_history.csv` — league cap by season (nominal + partial inflation-adjusted)
 
 Validated against known values (Kobe $30.5M/2013-14, Curry $59.6M/2025-26, GSW $206.8M top payroll 2023-24). Caveats: ~4.6% of rows have undisclosed salary (two-way/10-day — kept as NaN, flagged); recent team tables are transaction-inclusive (waived/dead-money + call-ups → ~24 entries/team) — correct for cap analysis, filter on disclosed salary for pure roster counts.
-Remaining spine columns still to add: **axis A** (experience, from B-Ref player pages) and **axis B** (impact tier, from RAPTOR archive / BPM), joined on the B-Ref `player_id` already present.
+~~Remaining spine columns still to add~~ **(DONE 2026-07-21):** axis A (experience) + axis B (impact) now joined on `player_id`:
+- `data/experience_by_season.csv` — years of experience (from cached team roster tables, zero new requests) + CBA-eligibility buckets.
+- `data/advanced_by_season.csv` — BPM/OBPM/DBPM, VORP, WS, PER, USG%, MP (21 season pages). Chosen over RAPTOR because it covers the post-apron seasons (2024-25+) the RAPTOR archive lacks, consistently across all 21 seasons.
+- `data/player_season_spine.csv` — **the full spine**: pay (axis C) × experience (A) × impact (B), with ordinal pay/impact tiers and `surplus_value = impact_tier − pay_tier`. Validated: 2024-25 top bargains = Wembanyama/Şengün/J.Williams (young + cheap + elite); top overpays = Beal/George/Booker (max $ + low BPM). Tier thresholds documented in `scrape/build_full_spine.py`.
 
 ## 6. Dashboard concept
 
