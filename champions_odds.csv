@@ -1,0 +1,37 @@
+season,champion,preseason_odds,playoff_round1_odds,conf_semis_odds,conf_finals_odds,finals_odds
+1990-91,Chicago Bulls,700,250,,,-200
+1991-92,Chicago Bulls,250,-200,,,-250
+1992-93,Chicago Bulls,120,300,,,-240
+1993-94,Houston Rockets,1200,600,,150,-220
+1994-95,Houston Rockets,450,1800,,,130
+1995-96,Chicago Bulls,350,-400,,-300,-950
+1996-97,Chicago Bulls,100,-200,,-500,-600
+1997-98,Chicago Bulls,140,140,,-125,-115
+1998-99,San Antonio Spurs,450,350,,120,-900
+1999-00,Los Angeles Lakers,400,-125,,,-800
+2000-01,Los Angeles Lakers,180,300,,,-2000
+2001-02,Los Angeles Lakers,200,140,,-200,-750
+2002-03,San Antonio Spurs,1100,250,,,-330
+2003-04,Detroit Pistons,1500,700,,400,500
+2004-05,San Antonio Spurs,400,250,,180,-250
+2005-06,Miami Heat,350,500,,400,130
+2006-07,San Antonio Spurs,450,400,,,-450
+2007-08,Boston Celtics,1000,180,,200,160
+2008-09,Los Angeles Lakers,350,160,,150,-280
+2009-10,Los Angeles Lakers,225,225,275,145,-190
+2010-11,Dallas Mavericks,2000,1800,1400,245,155
+2011-12,Miami Heat,225,200,115,140,155
+2012-13,Miami Heat,225,-125,-222,-333,-220
+2013-14,San Antonio Spurs,1200,330,250,190,-155
+2014-15,Golden State Warriors,2800,175,110,-200,-220
+2015-16,Cleveland Cavaliers,280,475,373,233,180
+2016-17,Golden State Warriors,-128,-173,-205,-245,-300
+2017-18,Golden State Warriors,-187,137,117,-144,-1075
+2018-19,Toronto Raptors,1850,975,835,845,230
+2019-20,Los Angeles Lakers,450,280,330,-215,-350
+2020-21,Milwaukee Bucks,550,850,575,110,160
+2021-22,Golden State Warriors,900,1000,300,150,-145
+2022-23,Denver Nuggets,1800,1000,700,260,-430
+2023-24,Boston Celtics,400,160,110,-150,-225
+2024-25,Oklahoma City Thunder,500,185,140,-175,-700
+2025-26,New York Knicks,900,2200,900,550,160

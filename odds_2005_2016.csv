@@ -1,0 +1,331 @@
+season,team,odds_preseason_first,odds_preseason_last,champion
+2005-06,Miami Heat,350,350,1
+2005-06,Dallas Mavericks,1300,1300,0
+2005-06,Detroit Pistons,1000,1000,0
+2005-06,Phoenix Suns,800,800,0
+2005-06,San Antonio Spurs,250,250,0
+2005-06,New Jersey Nets,2500,2500,0
+2005-06,Cleveland Cavaliers,1800,1800,0
+2005-06,Los Angeles Clippers,7000,7000,0
+2005-06,Denver Nuggets,1200,1200,0
+2005-06,Indiana Pacers,1600,1600,0
+2005-06,Los Angeles Lakers,2500,2500,0
+2005-06,Memphis Grizzlies,3500,3500,0
+2005-06,Washington Wizards,3000,3000,0
+2005-06,Sacramento Kings,1800,1800,0
+2005-06,Chicago Bulls,3000,3000,0
+2005-06,Milwaukee Bucks,8000,8000,0
+2005-06,Houston Rockets,1500,1500,0
+2005-06,Minnesota Timberwolves,1800,1800,0
+2005-06,Seattle SuperSonics,1800,1800,0
+2005-06,Philadelphia 76ers,2500,2500,0
+2005-06,Boston Celtics,3000,3000,0
+2005-06,New York Knicks,5000,5000,0
+2005-06,Golden State Warriors,6000,6000,0
+2005-06,Orlando Magic,7000,7000,0
+2005-06,Toronto Raptors,8000,8000,0
+2005-06,Portland Trail Blazers,10000,10000,0
+2005-06,Utah Jazz,10000,10000,0
+2005-06,Charlotte Bobcats,25000,25000,0
+2005-06,Atlanta Hawks,30000,30000,0
+2005-06,New Orleans Hornets,40000,40000,0
+2006-07,San Antonio Spurs,450,450,1
+2006-07,Cleveland Cavaliers,900,900,0
+2006-07,Dallas Mavericks,400,400,0
+2006-07,Phoenix Suns,600,600,0
+2006-07,Detroit Pistons,800,800,0
+2006-07,Miami Heat,600,600,0
+2006-07,Chicago Bulls,1800,1800,0
+2006-07,Houston Rockets,2000,2000,0
+2006-07,Toronto Raptors,10000,10000,0
+2006-07,Denver Nuggets,4500,4500,0
+2006-07,Utah Jazz,8000,8000,0
+2006-07,New Jersey Nets,1500,1500,0
+2006-07,Los Angeles Lakers,3500,3500,0
+2006-07,Golden State Warriors,10000,10000,0
+2006-07,Orlando Magic,15000,15000,0
+2006-07,Washington Wizards,6500,6500,0
+2006-07,Los Angeles Clippers,2500,2500,0
+2006-07,Sacramento Kings,3500,3500,0
+2006-07,Memphis Grizzlies,4500,4500,0
+2006-07,Indiana Pacers,5000,5000,0
+2006-07,Boston Celtics,8000,8000,0
+2006-07,Milwaukee Bucks,8000,8000,0
+2006-07,Minnesota Timberwolves,10000,10000,0
+2006-07,New Orleans Hornets,10000,10000,0
+2006-07,Seattle SuperSonics,10000,10000,0
+2006-07,Philadelphia 76ers,12000,12000,0
+2006-07,Atlanta Hawks,20000,20000,0
+2006-07,New York Knicks,20000,20000,0
+2006-07,Charlotte Bobcats,50000,50000,0
+2006-07,Portland Trail Blazers,50000,50000,0
+2007-08,Boston Celtics,1000,1000,1
+2007-08,Los Angeles Lakers,3000,3000,0
+2007-08,Detroit Pistons,1200,1200,0
+2007-08,San Antonio Spurs,450,450,0
+2007-08,Phoenix Suns,500,500,0
+2007-08,New Orleans Hornets,5000,5000,0
+2007-08,Utah Jazz,1500,1500,0
+2007-08,Dallas Mavericks,450,450,0
+2007-08,Cleveland Cavaliers,600,600,0
+2007-08,Houston Rockets,1000,1000,0
+2007-08,Orlando Magic,4000,4000,0
+2007-08,Denver Nuggets,1500,1500,0
+2007-08,Washington Wizards,2500,2500,0
+2007-08,Toronto Raptors,2000,2000,0
+2007-08,Philadelphia 76ers,15000,15000,0
+2007-08,Atlanta Hawks,12500,12500,0
+2007-08,Chicago Bulls,1000,1000,0
+2007-08,Miami Heat,1200,1200,0
+2007-08,Golden State Warriors,2000,2000,0
+2007-08,New Jersey Nets,2500,2500,0
+2007-08,Indiana Pacers,4000,4000,0
+2007-08,Los Angeles Clippers,5000,5000,0
+2007-08,Sacramento Kings,5000,5000,0
+2007-08,New York Knicks,6000,6000,0
+2007-08,Milwaukee Bucks,7500,7500,0
+2007-08,Seattle SuperSonics,7500,7500,0
+2007-08,Portland Trail Blazers,8000,8000,0
+2007-08,Charlotte Bobcats,12500,12500,0
+2007-08,Minnesota Timberwolves,15000,15000,0
+2007-08,Memphis Grizzlies,20000,20000,0
+2008-09,Los Angeles Lakers,350,350,1
+2008-09,Orlando Magic,2000,2000,0
+2008-09,Cleveland Cavaliers,1000,1000,0
+2008-09,Denver Nuggets,5000,5000,0
+2008-09,Boston Celtics,350,350,0
+2008-09,Portland Trail Blazers,3000,3000,0
+2008-09,San Antonio Spurs,800,800,0
+2008-09,Houston Rockets,1200,1200,0
+2008-09,New Orleans Hornets,1000,1000,0
+2008-09,Dallas Mavericks,2000,2000,0
+2008-09,Atlanta Hawks,10000,10000,0
+2008-09,Miami Heat,3500,3500,0
+2008-09,Utah Jazz,1200,1200,0
+2008-09,Philadelphia 76ers,2500,2500,0
+2008-09,Chicago Bulls,3000,3000,0
+2008-09,Detroit Pistons,1000,1000,0
+2008-09,Phoenix Suns,1500,1500,0
+2008-09,Toronto Raptors,3500,3500,0
+2008-09,Washington Wizards,6000,6000,0
+2008-09,Los Angeles Clippers,8000,8000,0
+2008-09,Golden State Warriors,10000,10000,0
+2008-09,Indiana Pacers,10000,10000,0
+2008-09,New Jersey Nets,10000,10000,0
+2008-09,New York Knicks,10000,10000,0
+2008-09,Charlotte Bobcats,12500,12500,0
+2008-09,Milwaukee Bucks,15000,15000,0
+2008-09,Minnesota Timberwolves,15000,15000,0
+2008-09,Oklahoma City Thunder,20000,20000,0
+2008-09,Sacramento Kings,20000,20000,0
+2008-09,Memphis Grizzlies,25000,25000,0
+2009-10,Los Angeles Lakers,250,225,1
+2009-10,Boston Celtics,500,450,0
+2009-10,Orlando Magic,700,1000,0
+2009-10,Phoenix Suns,5000,6600,0
+2009-10,Cleveland Cavaliers,300,300,0
+2009-10,San Antonio Spurs,1500,1000,0
+2009-10,Utah Jazz,2000,2500,0
+2009-10,Atlanta Hawks,5000,5000,0
+2009-10,Dallas Mavericks,4000,2500,0
+2009-10,Denver Nuggets,1200,1500,0
+2009-10,Oklahoma City Thunder,10000,12500,0
+2009-10,Portland Trail Blazers,2000,2000,0
+2009-10,Miami Heat,5000,4000,0
+2009-10,Charlotte Bobcats,10000,12500,0
+2009-10,Milwaukee Bucks,10000,20000,0
+2009-10,Chicago Bulls,5000,5000,0
+2009-10,Toronto Raptors,10000,6600,0
+2009-10,Houston Rockets,1500,4000,0
+2009-10,New Orleans Hornets,4000,5000,0
+2009-10,Memphis Grizzlies,10000,15000,0
+2009-10,Philadelphia 76ers,6000,6600,0
+2009-10,Detroit Pistons,5000,3300,0
+2009-10,Washington Wizards,10000,8000,0
+2009-10,Indiana Pacers,10000,10000,0
+2009-10,Los Angeles Clippers,10000,15000,0
+2009-10,Sacramento Kings,10000,25000,0
+2009-10,New York Knicks,10000,6600,0
+2009-10,Golden State Warriors,10000,12500,0
+2009-10,Minnesota Timberwolves,10000,20000,0
+2009-10,New Jersey Nets,10000,12500,0
+2010-11,Dallas Mavericks,3000,2000,1
+2010-11,Miami Heat,175,175,0
+2010-11,Chicago Bulls,1600,1400,0
+2010-11,Oklahoma City Thunder,2200,1600,0
+2010-11,Los Angeles Lakers,300,250,0
+2010-11,Boston Celtics,1000,1000,0
+2010-11,Memphis Grizzlies,10000,10000,0
+2010-11,Atlanta Hawks,8000,4000,0
+2010-11,San Antonio Spurs,4000,2500,0
+2010-11,Orlando Magic,1600,1000,0
+2010-11,New York Knicks,8000,4000,0
+2010-11,Denver Nuggets,3000,2500,0
+2010-11,Portland Trail Blazers,4000,2800,0
+2010-11,Philadelphia 76ers,8000,10000,0
+2010-11,New Orleans Hornets,8000,6600,0
+2010-11,Indiana Pacers,10000,15000,0
+2010-11,Houston Rockets,4000,4000,0
+2010-11,Charlotte Bobcats,8000,6600,0
+2010-11,Milwaukee Bucks,8500,4000,0
+2010-11,Utah Jazz,7500,4000,0
+2010-11,Phoenix Suns,6000,5000,0
+2010-11,Golden State Warriors,10000,15000,0
+2010-11,Detroit Pistons,10000,10000,0
+2010-11,New Jersey Nets,10000,10000,0
+2010-11,Los Angeles Clippers,10000,10000,0
+2010-11,Cleveland Cavaliers,2250,10000,0
+2010-11,Washington Wizards,8500,5000,0
+2010-11,Toronto Raptors,12500,20000,0
+2010-11,Sacramento Kings,12500,15000,0
+2010-11,Minnesota Timberwolves,12500,20000,0
+2011-12,Miami Heat,225,225,1
+2011-12,Oklahoma City Thunder,700,700,0
+2011-12,San Antonio Spurs,3300,3300,0
+2011-12,Boston Celtics,1600,1600,0
+2011-12,Los Angeles Lakers,450,450,0
+2011-12,Los Angeles Clippers,2000,2000,0
+2011-12,Indiana Pacers,6600,6600,0
+2011-12,Philadelphia 76ers,12500,12500,0
+2011-12,Chicago Bulls,550,550,0
+2011-12,Memphis Grizzlies,2500,2500,0
+2011-12,Dallas Mavericks,850,850,0
+2011-12,New York Knicks,1600,1600,0
+2011-12,Denver Nuggets,6600,6600,0
+2011-12,Atlanta Hawks,5000,5000,0
+2011-12,Orlando Magic,2500,2500,0
+2011-12,Utah Jazz,10000,10000,0
+2011-12,Houston Rockets,6600,6600,0
+2011-12,Milwaukee Bucks,12500,12500,0
+2011-12,Portland Trail Blazers,3300,3300,0
+2011-12,New Jersey Nets,4000,4000,0
+2011-12,New Orleans Hornets,15000,15000,0
+2011-12,Phoenix Suns,10000,10000,0
+2011-12,Golden State Warriors,12500,12500,0
+2011-12,Washington Wizards,15000,15000,0
+2011-12,Detroit Pistons,20000,20000,0
+2011-12,Minnesota Timberwolves,20000,20000,0
+2011-12,Sacramento Kings,20000,20000,0
+2011-12,Charlotte Bobcats,20000,20000,0
+2011-12,Toronto Raptors,25000,25000,0
+2011-12,Cleveland Cavaliers,20000,20000,0
+2012-13,Miami Heat,250,225,1
+2012-13,San Antonio Spurs,700,1600,0
+2012-13,Memphis Grizzlies,3000,3300,0
+2012-13,Indiana Pacers,2000,3300,0
+2012-13,Oklahoma City Thunder,250,450,0
+2012-13,New York Knicks,6000,3300,0
+2012-13,Golden State Warriors,10000,15000,0
+2012-13,Chicago Bulls,500,1200,0
+2012-13,Los Angeles Clippers,3000,2200,0
+2012-13,Denver Nuggets,3000,5000,0
+2012-13,Los Angeles Lakers,1200,275,0
+2012-13,Brooklyn Nets,10000,2800,0
+2012-13,Boston Celtics,2000,2000,0
+2012-13,Atlanta Hawks,6000,8000,0
+2012-13,Houston Rockets,10000,6600,0
+2012-13,Milwaukee Bucks,10000,10000,0
+2012-13,Utah Jazz,10000,10000,0
+2012-13,Dallas Mavericks,1500,3300,0
+2012-13,Portland Trail Blazers,10000,10000,0
+2012-13,Philadelphia 76ers,6000,5000,0
+2012-13,Toronto Raptors,10000,25000,0
+2012-13,Detroit Pistons,10000,20000,0
+2012-13,Minnesota Timberwolves,10000,8000,0
+2012-13,Orlando Magic,3000,15000,0
+2012-13,Phoenix Suns,10000,15000,0
+2012-13,New Orleans Hornets,10000,15000,0
+2012-13,Sacramento Kings,10000,25000,0
+2012-13,Cleveland Cavaliers,10000,20000,0
+2012-13,Charlotte Bobcats,10000,50000,0
+2012-13,Washington Wizards,10000,20000,0
+2013-14,San Antonio Spurs,1000,1200,1
+2013-14,Miami Heat,250,200,0
+2013-14,Oklahoma City Thunder,600,550,0
+2013-14,Indiana Pacers,1500,1400,0
+2013-14,Los Angeles Clippers,1800,1400,0
+2013-14,Brooklyn Nets,5000,1200,0
+2013-14,Portland Trail Blazers,15000,8000,0
+2013-14,Washington Wizards,15000,10000,0
+2013-14,Houston Rockets,2000,1200,0
+2013-14,Golden State Warriors,3500,2500,0
+2013-14,Chicago Bulls,1000,1000,0
+2013-14,Toronto Raptors,15000,15000,0
+2013-14,Memphis Grizzlies,2500,2800,0
+2013-14,Dallas Mavericks,4000,4000,0
+2013-14,Atlanta Hawks,7500,6600,0
+2013-14,Charlotte Bobcats,50000,30000,0
+2013-14,Phoenix Suns,40000,20000,0
+2013-14,New York Knicks,2500,2200,0
+2013-14,Minnesota Timberwolves,10000,10000,0
+2013-14,Cleveland Cavaliers,15000,6600,0
+2013-14,Detroit Pistons,40000,12500,0
+2013-14,Boston Celtics,5000,10000,0
+2013-14,Denver Nuggets,3500,3300,0
+2013-14,New Orleans Pelicans,15000,10000,0
+2013-14,Orlando Magic,50000,30000,0
+2013-14,Los Angeles Lakers,3000,2500,0
+2013-14,Philadelphia 76ers,15000,10000,0
+2013-14,Sacramento Kings,15000,15000,0
+2013-14,Utah Jazz,15000,8000,0
+2013-14,Milwaukee Bucks,15000,15000,0
+2014-15,Golden State Warriors,2500,2800,1
+2014-15,Cleveland Cavaliers,3300,275,0
+2014-15,Atlanta Hawks,7500,12500,0
+2014-15,Houston Rockets,1600,2200,0
+2014-15,Chicago Bulls,1200,700,0
+2014-15,Los Angeles Clippers,900,900,0
+2014-15,Memphis Grizzlies,3300,5500,0
+2014-15,Washington Wizards,3300,3000,0
+2014-15,San Antonio Spurs,500,350,0
+2014-15,Portland Trail Blazers,2500,5000,0
+2014-15,Dallas Mavericks,3300,2500,0
+2014-15,Toronto Raptors,4000,5000,0
+2014-15,New Orleans Pelicans,5000,7500,0
+2014-15,Milwaukee Bucks,20000,25000,0
+2014-15,Brooklyn Nets,3000,6000,0
+2014-15,Boston Celtics,5000,15000,0
+2014-15,Oklahoma City Thunder,600,600,0
+2014-15,Miami Heat,300,4500,0
+2014-15,Indiana Pacers,1200,8000,0
+2014-15,Charlotte Hornets,7500,8500,0
+2014-15,Detroit Pistons,5000,25000,0
+2014-15,Phoenix Suns,7500,8500,0
+2014-15,Sacramento Kings,15000,25000,0
+2014-15,Denver Nuggets,5000,12500,0
+2014-15,New York Knicks,4000,5500,0
+2014-15,Utah Jazz,15000,25000,0
+2014-15,Los Angeles Lakers,4000,10000,0
+2014-15,Orlando Magic,15000,25000,0
+2014-15,Minnesota Timberwolves,6500,25000,0
+2014-15,Philadelphia 76ers,20000,50000,0
+2015-16,Cleveland Cavaliers,300,280,1
+2015-16,Golden State Warriors,550,480,0
+2015-16,Oklahoma City Thunder,600,750,0
+2015-16,Toronto Raptors,4000,6600,0
+2015-16,San Antonio Spurs,1100,500,0
+2015-16,Atlanta Hawks,2500,3600,0
+2015-16,Miami Heat,4000,4000,0
+2015-16,Portland Trail Blazers,4000,30000,0
+2015-16,Los Angeles Clippers,1100,1200,0
+2015-16,Boston Celtics,6500,15500,0
+2015-16,Charlotte Hornets,20000,35000,0
+2015-16,Indiana Pacers,3000,9000,0
+2015-16,Detroit Pistons,10000,25000,0
+2015-16,Houston Rockets,1800,1500,0
+2015-16,Dallas Mavericks,4000,12000,0
+2015-16,Memphis Grizzlies,3000,3300,0
+2015-16,Chicago Bulls,1200,1600,0
+2015-16,Washington Wizards,2500,5500,0
+2015-16,Utah Jazz,10000,15000,0
+2015-16,Orlando Magic,25000,50000,0
+2015-16,Sacramento Kings,10000,30000,0
+2015-16,New York Knicks,8500,24000,0
+2015-16,Milwaukee Bucks,7500,6800,0
+2015-16,New Orleans Pelicans,2500,3300,0
+2015-16,Denver Nuggets,10000,30000,0
+2015-16,Minnesota Timberwolves,20000,30000,0
+2015-16,Phoenix Suns,10000,30000,0
+2015-16,Brooklyn Nets,10000,30000,0
+2015-16,Los Angeles Lakers,7500,20000,0
+2015-16,Philadelphia 76ers,25000,100000,0

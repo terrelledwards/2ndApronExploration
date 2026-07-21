@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Scraper HTML cache (~480MB of raw Basketball-Reference pages; regenerable)
+scrape/cache/
+
+# macOS
+.DS_Store
