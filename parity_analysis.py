@@ -2,7 +2,8 @@
 import pandas as pd
 import numpy as np
 
-OUT = "/sessions/amazing-kind-ramanujan/mnt/outputs"
+import os
+OUT = os.path.dirname(os.path.abspath(__file__))  # repo root; CSVs live here
 
 odds = pd.concat([
     pd.read_csv(f"{OUT}/odds_2005_2016.csv"),

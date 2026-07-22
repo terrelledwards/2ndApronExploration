@@ -7,6 +7,11 @@ punitiveness — with comparison to other leagues (EPL PSR, MLB CBT, NFL cap).
 See [`nba-second-apron-research-plan.md`](nba-second-apron-research-plan.md) for the full
 research design (treatment timeline, player-grouping framework, and workstreams).
 
+**Interactive dashboard:** [`nba_apron_dashboard.html`](nba_apron_dashboard.html) — a
+self-contained page (open it in any browser) with tabbed, era-shaded charts for parity,
+trades, free agency, and compensation. Rebuild its embedded data with
+`scrape/build_dashboard_data.py`.
+
 ## Repository layout
 
 ```
