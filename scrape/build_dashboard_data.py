@@ -104,6 +104,22 @@ for s, g in spine.dropna(subset=["pct_of_cap"]).groupby("season"):
     })
 out["classes"] = mc
 
+# ---- COUNTERFACTUAL TRADES ----
+cf = pd.read_csv(os.path.join(DATA, "counterfactual_trades.csv"))
+out["counterfactual"] = [{
+    "year": int(r.year), "trade": r.trade, "star": r.star, "acq": r.acquirer,
+    "tier": r.acq_spend_tier, "agg": int(r.salaries_aggregated), "picks": int(r.picks_out),
+    "restricted": bool(r.relies_on_restricted_mechanism),
+    "verdict": r.verdict, "reason": r.reason,
+} for r in cf.itertuples()]
+
+# ---- BIG-SPENDER AGGREGATION (per season) ----
+bs = pd.read_csv(os.path.join(DATA, "bigspender_agg_by_season.csv"))
+out["apron_agg"] = [{
+    "season": r.season, "era": era(r.season),
+    "big": round(r.agg_rate, 3), "all": round(r.agg_rate_all, 3),
+} for r in bs.itertuples()]
+
 # era metadata for shading
 out["eras"] = [
     {"name": "2005 CBA", "start": "2005-06", "end": "2010-11"},
