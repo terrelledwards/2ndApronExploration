@@ -1,0 +1,17 @@
+era,tier,team_trade_participations,agg_rate,multiteam_rate
+2005 CBA,apron1,91,0.209,0.088
+2005 CBA,apron2,78,0.256,0.115
+2005 CBA,tax,258,0.221,0.101
+2005 CBA,under,149,0.141,0.087
+2011 CBA,apron1,95,0.211,0.179
+2011 CBA,apron2,63,0.302,0.143
+2011 CBA,tax,187,0.166,0.16
+2011 CBA,under,299,0.201,0.14
+2017 CBA,apron1,48,0.208,0.208
+2017 CBA,apron2,64,0.266,0.25
+2017 CBA,tax,391,0.246,0.184
+2017 CBA,under,209,0.177,0.163
+2023 CBA (apron),apron1,58,0.138,0.31
+2023 CBA (apron),apron2,29,0.138,0.276
+2023 CBA (apron),tax,252,0.194,0.242
+2023 CBA (apron),under,57,0.228,0.193

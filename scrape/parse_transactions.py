@@ -91,6 +91,10 @@ for path in sorted(glob.glob(os.path.join(CACHE, "transactions_*.html"))):
             teams = sorted(set(FROM_RE.findall(p)) | set(TO_RE.findall(p)))
             players = list(dict.fromkeys(PLAYER_RE.findall(p)))
             out_n, in_n = (count_players_out_in(p) if typ == 'trade' else (0, 0))
+            # the aggregating/sending team is the first "data-attr-from" (subject of
+            # "The X traded A, B ... to Y"); its outgoing count is out_n
+            fm = FROM_RE.search(p)
+            subject_team = fm.group(1) if fm else ""
             rows.append({
                 "season": season,
                 "date": date.isoformat(),
@@ -98,6 +102,7 @@ for path in sorted(glob.glob(os.path.join(CACHE, "transactions_*.html"))):
                 "subtype": sub,
                 "teams": "/".join(teams),
                 "n_teams": len(teams),
+                "subject_team": subject_team,
                 "players": "/".join(players),
                 "n_players": len(players),
                 "players_out": out_n,

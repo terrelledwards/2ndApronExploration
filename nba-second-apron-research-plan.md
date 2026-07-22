@@ -74,6 +74,18 @@ Builders: `scrape/parse_transactions.py`, `build_trade_metrics.py`, `build_fa_me
 - Caveat: 2011-12 (lockout) and 2020-21 (COVID) excluded from FA timeline — FA opened in Dec/Nov, not July.
 - Still TODO: extension-vs-FA share (needs extension flag from B-Ref contract pages).
 
+### ✅ Counterfactual trades + apron-team isolation (2026-07-22)
+Builders: `scrape/build_team_payrolls.py`, `build_counterfactuals.py`, `build_apron_team_trades.py`.
+Data: `team_payrolls.csv` (630 team-seasons, spend tiers), `counterfactual_trades.csv/.json`,
+`apron_team_trades_by_tier_era.csv`, `bigspender_agg_by_season.csv`.
+
+**Counterfactual — 20 landmark trades under 2023 rules.** Spending tiers from payroll/cap ratio
+(apron2 ≈ ratio ≥ 1.37, calibrated to the real 2024-25 line). Two lenses:
+- **5 of 20 outright illegal** given the acquirer's actual spending (2012 Lakers–Nash & –Howard, 2013 Nets–KG/Pierce, 2021 Nets–Harden, 2023 Suns–Durant) — all done by teams already at 2nd-apron level, killed by the aggregation / no-step-up / no-S&T bans.
+- **17 of 20 rely on a mechanism the 2nd apron restricts** (aggregation of 2+, salary step-up, sign-and-trade, cash); **16 of 17 pre-apron landmark deals** used one. The two post-apron deals (Bridges, Luka) use single-salary matching — teams have already adapted. Nuance: the ban doesn't stop team-building broadly; it stops the biggest spenders specifically.
+
+**Apron-team isolation — does the ban change behavior?** Aggregation attributed to the *sending* team (`subject_team`). Big-spender (apron1/apron2) aggregation rate by era: **0.23 → 0.25 → 0.24 → 0.14** — roughly halved under the apron. The pattern inverted: big spenders used to aggregate *more* than the field (0.23 vs 0.19); now they aggregate *least* (0.14 vs 0.20), while unconstrained cheap teams aggregate *most* (0.23). apron2 teams specifically: 0.26 → 0.30 → 0.27 → **0.14**. Direct evidence the ban binds the teams it targets.
+
 ## 4. Queued workstreams
 
 **W2 — Compensation shifts:** star share of team payroll over time; middle-class squeeze (count and $ share of 5-15%-of-cap contracts); supermax uptake and outcomes; "should stars take less" reframed as: what discount, if any, changes a team's apron position and title odds.
