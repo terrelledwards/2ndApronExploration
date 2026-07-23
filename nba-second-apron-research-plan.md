@@ -94,6 +94,13 @@ Data: `team_payrolls.csv` (630 team-seasons, spend tiers), `counterfactual_trade
 
 **W4 — Cross-league comparison:** penalty-currency taxonomy — NBA 2023 (money + basketball penalties), EPL PSR (sporting penalties: point deductions), MLB CBT (money + draft picks), NFL (hard cap). Compare 20-year title concentration (HHI) across leagues against cap hardness.
 
+### ✅ Workstream 4 — DONE (2026-07-22)
+Builder: `scrape/build_cross_league.py` → `data/cross_league.json`. Champions verified vs. Wikipedia (last 20 completed seasons per league); payroll ratios from public trackers (each league's own basis).
+- **Title concentration (distinct champions / HHI / effective champions):** EPL 5 / 0.29 / 3.4 (Man City 8 titles) · NBA 11 / 0.12 / 8.3 · MLB 13 / 0.095 / 10.5 · NFL 13 / 0.095 / 10.5.
+- **Spending inequality (richest/poorest payroll):** NFL 1.2× (hard cap) → NBA 1.5× (apron) → MLB 5.0× (luxury tax) → EPL 8.4× (PSR/no cap). Tracks cap hardness exactly.
+- **Key finding:** the two orderings diverge. Spending inequality follows cap hardness, but *balance* does not — MLB (no cap) is as balanced as the NFL (hard cap) because playoff variance breaks the money→title link, while the EPL (no cap, no playoff) is the one league where spending buys titles. **A cap controls spending; league structure controls balance.** The apron places the NBA in the balanced cluster.
+- Dashboard: added "Leagues" tab (balance bars, spending-inequality bars, hardness-vs-balance scatter, penalty-currency taxonomy table).
+
 **W5 — Further questions (mini-projects, roughly prioritized):**
 1. Draft pick value then vs. now (in $ or replacement-level production) — picks are the currency apron teams have left; expect value inflation.
 2. Title window: seasons from a core's first max contract to contention exit; test the "5-year window" hypothesis.

@@ -120,6 +120,10 @@ out["apron_agg"] = [{
     "big": round(r.agg_rate, 3), "all": round(r.agg_rate_all, 3),
 } for r in bs.itertuples()]
 
+# ---- CROSS-LEAGUE (Workstream 4) ----
+with open(os.path.join(DATA, "cross_league.json")) as f:
+    out["cross"] = json.load(f)
+
 # era metadata for shading
 out["eras"] = [
     {"name": "2005 CBA", "start": "2005-06", "end": "2010-11"},
