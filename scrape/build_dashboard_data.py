@@ -93,6 +93,41 @@ for s, g in q.groupby("season"):
     } for r in g.itertuples()]
 out["scatter"] = scatter
 
+# (b2) per-TEAM scatter: each player's cap hit against a specific team's books that
+# season (from team_player_salaries), joined to that player's season impact. Surplus is
+# recomputed against the team-specific pay tier. Lets the dashboard filter by roster.
+tps = pd.read_csv(os.path.join(DATA, "team_player_salaries.csv"))
+imp = spine[["season", "player_id", "bpm", "mp"]]
+tp = tps.merge(imp, on=["season", "player_id"], how="left")
+tp = tp[tp.salary.notna() & tp.bpm.notna() & (tp.mp >= 500)].copy()
+
+
+def pay_tier(pct):
+    if pct < 5:  return 1
+    if pct < 15: return 2
+    if pct < 25: return 3
+    if pct < 30: return 4
+    return 5
+
+
+def impact_tier(bpm):
+    if bpm >= 5:  return 5
+    if bpm >= 2:  return 4
+    if bpm >= 0:  return 3
+    if bpm >= -2: return 2
+    return 1
+
+
+scatter_team = {}
+for (s, team), g in tp.groupby(["season", "team"]):
+    pts = []
+    for r in g.itertuples():
+        pt, it = pay_tier(r.pct_of_cap), impact_tier(r.bpm)
+        pts.append({"p": r.player, "cap": round(r.pct_of_cap, 1),
+                    "bpm": round(r.bpm, 1), "sv": it - pt})
+    scatter_team.setdefault(s, {})[team] = pts
+out["scatter_team"] = scatter_team
+
 # (c) middle-class squeeze: count of 5-15%-of-cap contracts (impact_tier>=3) per season
 mc = []
 for s, g in spine.dropna(subset=["pct_of_cap"]).groupby("season"):

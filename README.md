@@ -17,7 +17,7 @@ browser; no server needed) with six era-shaded, tabbed, interactive views:
 | **Parity** | Effective contenders & top-3 title share by season; champions by preseason rank |
 | **Trades** | Total / multi-team / deadline-week trades by season |
 | **Free Agency** | Signing-speed compression; All-Star movement rate |
-| **Compensation** | Pay-vs-production surplus map (per season); stars' share of the cap over time |
+| **Compensation** | Pay-vs-production surplus map (per season, filterable by team roster); stars' share of the cap over time |
 | **Apron Rules** | Counterfactual trade timeline + ledger; big-spender aggregation rate |
 | **Leagues** | Cross-league balance, spending inequality, and penalty-currency taxonomy |
 
